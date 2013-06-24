@@ -13,3 +13,6 @@ export PATH=${PATH}:~/bin
 
 # Set editor
 export EDITOR='subl -w'
+
+# Aliases
+alias e='subl -w'
