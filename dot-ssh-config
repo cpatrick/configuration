@@ -1,0 +1,74 @@
+Host Aiur
+HostName krs.kitware.com
+Port 50156
+DynamicForward 9999
+ForwardX11 yes
+
+Host dione
+HostName dione.ia.unc.edu
+DynamicForward 8888
+ForwardX11 yes
+
+Host moloch
+HostName cpatrick.kicks-ass.net
+Port 7777
+ForwardX11 yes
+
+Host insightjournal
+HostName insightjournal
+ForwardX11 yes
+Host itk.org
+IdentityFile=~/.ssh/id_git_itk
+
+Host localhost
+HostName localhost
+IdentityFile=~/.ssh/id_home_dsa
+
+Host siramix.com
+HostName siramix.com
+User siramix
+
+Host erie
+HostName erie.nlm.nih.gov
+ForwardAgent yes
+LocalForward 20000 placid.nlm.nih.gov:22
+
+Host placid
+HostName localhost
+User cpatrick
+Port 20000
+
+Host bach
+HostName bach.bbmsc.com
+User kitware
+
+Host kwdocs
+User patrick
+
+Host midas3
+User patrick
+
+Host zomm
+Port 2222
+
+Host tarsonis-osehra
+HostName localhost
+User cpatrick
+Port 8022
+
+Host idash-edge-linux
+HostName idash-edge-linux.ucsd.edu
+ForwardAgent yes
+LocalForward 20001 idash-data-dev.ucsd.edu:22
+User Patrick.Reynolds
+
+Host idash-data-dev
+HostName localhost
+Port 20001
+User Patrick.Reynolds
+Host=vtk.org
+  IdentityFile ~/.ssh/id_git_vtk
+
+Host docs-fileserver
+HostName 162.209.56.88
+User reynoldsp
