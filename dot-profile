@@ -2,6 +2,7 @@
 source /usr/local/etc/bash_completion.d/git-completion.bash
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/todo_completion
+source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
@@ -21,3 +22,6 @@ alias e='subl -w'
 # Todo.txt alias
 alias t='todo.sh'
 complete -F _todo t
+
+# NPM binaries
+export PATH=/usr/local/share/npm/bin:${PATH}
