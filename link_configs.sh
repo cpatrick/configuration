@@ -15,3 +15,6 @@ ln -s "/Users/cpatrick/Projects/Misc/configuration/dot-ssh-config" \
 
 ln -s "/Users/cpatrick/Projects/Misc/configuration/Preferences.sublime-settings" \
       "/Users/cpatrick/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+
+ln -s "/Users/cpatrick/Projects/Misc/configuration/dot-pystartup" \
+      "/Users/cpatrick/.pystartup"
