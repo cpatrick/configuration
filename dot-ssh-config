@@ -72,3 +72,6 @@ Host=vtk.org
 Host docs-fileserver
 HostName 162.209.56.88
 User reynoldsp
+
+Host slicer
+User patrick
