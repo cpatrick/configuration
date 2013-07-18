@@ -28,3 +28,6 @@ export PATH=/usr/local/share/npm/bin:${PATH}
 
 # Pystartup
 export PYTHONSTARTUP=/Users/cpatrick/.pystartup
+
+# For virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
